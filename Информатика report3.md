@@ -21,22 +21,17 @@
 через терминал. Для настройки сети в настройках машины A был выбран тип
 подключения \'NAT\'.
 
-![](C:\Users\София\Downloads\images/media/image2.png){width="6.267716535433071in"
-height="3.888888888888889in"}
+![](image2.png)
 
 Подключение к сети было проверено в терминале машины А через команду:
 ping 8.8.8.8
 
-![](C:\Users\София\Downloads\images/media/image7.png){width="6.267716535433071in"
-height="4.555555555555555in"}
-
+![](image7.png)
 Далее аналогично была настроена сеть для машины B и С через NAT
 
-![](C:\Users\София\Downloads\images/media/image10.png){width="6.267716535433071in"
-height="3.888888888888889in"}
+![](image10.png)
 
-![](C:\Users\София\Downloads\images/media/image11.png){width="6.267716535433071in"
-height="3.888888888888889in"}
+![](image11.png)
 
 Машинам были назначены ip адреса, маски и шлюз (для машины B) для
 внутренней сети. Машина А - ip \'192.168.1.1\' и маску
@@ -45,32 +40,23 @@ height="3.888888888888889in"}
 Машина B - ip \'192.168.1.2\', такая же маска как и у машины А
 -\'255.255.255.0\' и в качестве шлюза - ip машины А.
 
-![](C:\Users\София\Downloads\images/media/image1.png){width="6.267716535433071in"
-height="2.9583333333333335in"}
+![](image1.png)
+![](image6.png)
 
-![](C:\Users\София\Downloads\images/media/image6.png){width="5.875in"
-height="1.5729166666666667in"}
+![](image3.png)
 
-![](C:\Users\София\Downloads\images/media/image3.png){width="6.229166666666667in"
-height="1.5208333333333333in"}
+![](image4.png)
 
-![](C:\Users\София\Downloads\images/media/image4.png){width="5.916666666666667in"
-height="1.4895833333333333in"}
-
-![](C:\Users\София\Downloads\images/media/image5.png){width="6.0625in"
-height="0.875in"}
-
-![](C:\Users\София\Downloads\images/media/image9.png){width="5.854166666666667in"
-height="0.5625in"}
+![](image5.png)
+![](image9.png)
 
 Проверка соединения машин A и B через ping и ip адрес другой машины.
 
-![](C:\Users\София\Downloads\images/media/image8.png){width="6.267716535433071in"
-height="2.0555555555555554in"}
+![](image8.png)
 
 Далее был настроен доступ из машины А в машину C,
 
 но запрещен доступ из машины B в машину C
 
-![](C:\Users\София\Downloads\images/media/image12.png){width="6.267716535433071in"
-height="3.2222222222222223in"}
+![](image12.png)
+
